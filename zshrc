@@ -1,8 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/jayceleathers/.oh-my-zsh
-
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
+export PELRBREW_CPAN_MIRROR=http://noodle.portalus.net/CPAN/
+export PATH="/Library/TeX/texbin:$PATH"
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
@@ -53,7 +52,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
